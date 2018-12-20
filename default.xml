@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<manifest>
+  <remote fetch="git@github.com:moz-releng-automation-staging/" name="mozilla-partners"/>
+  <remote fetch="git@github.com:nthomas-mozilla/" name="nthomas"/>
+  <remote fetch="git@github.com:mozilla/" name="mozilla"/>
+
+  <project name="repack-scripts" path="scripts" remote="nthomas" revision="master"/>
+  <project name="build-tools" path="scripts/tools" remote="mozilla" revision="master"/>
+  <project name="sample-configs" path="partners/sample-configs" remote="mozilla-partners" revision="master"/>
+</manifest>
