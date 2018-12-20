@@ -1,6 +1,6 @@
 <?xml version="1.0" ?>
 <manifest>
-  <remote fetch="git@github.com:moz-releng-automation-staging/" name="mozilla-partners"/>
+  <remote fetch="git@github.com:moz-releng-automation-stage/" name="mozilla-partners"/>
   <remote fetch="git@github.com:nthomas-mozilla/" name="nthomas"/>
   <remote fetch="git@github.com:mozilla/" name="mozilla"/>
 
